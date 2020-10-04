@@ -26,7 +26,7 @@ items = {
 
     "nascent" : "amorphous, inmature",
 
-    "succint" : "concise, blunt",
+    "succinct" : "concise, blunt",
 
     "excise" : "to remove something completely(verb), tariff(noun), ",
 
@@ -48,7 +48,7 @@ items = {
 
     "shrewd" : "astude",
 
-    "unscathed" : "unhurmed",
+    "unscathed" : "unharmed",
 
     "ordeal" : "a diffucult or unpleasent experience",
 
@@ -66,10 +66,38 @@ items = {
 
     "arbitrator" : "a person who is chosen to settle a disagreement",
 
-    "pest" :  
+    "pest" :  "an annoying person or thing",
 
+    "preamble" : "an introduction to a book or a written document",
 
+    "prologue" : "a speech at the beginning of a play",
 
+    "proliferate" : "to increase rapidly in number of amount",
+
+    "peremptory" : "expecting to be obeyed immediately and without questioning or refusing",
+
+    "imperative" : "vital",
+
+    "incongruous" : "inappropriate",
+
+    "blithe" : "happy, not anxious",
+
+    "dissident" : "a person who strongly disagrees with and criticizes government",
+
+    "deference" : "behaviour that shows that you respect somebody/something",
+
+    "aversion" : "a strong feeling of not liking somebody/something",
+
+    "contempt" : "the feeling that somebody is without value and deserves no respect",
+    
+    "narrative" : "a description of events",
+
+    "untoward" : "unusual and unexpected and usually unpleasant",
+
+    "opprobrious" : "expressing severe criticism of someone",
+    
+    "meretricious" : "seeming attractive, but in fact has no value"
+    
 }
 
 

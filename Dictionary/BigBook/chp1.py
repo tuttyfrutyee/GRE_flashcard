@@ -84,7 +84,7 @@ items = {
 
     "recondite" : "obscure, not known by many",
 
-    "refactory" : "resistant, durable, stubborn",
+    "refractory" : "hard to manage, resistant, durable, stubborn",
 
     "injunction" : "legal mandate, instruction",
 

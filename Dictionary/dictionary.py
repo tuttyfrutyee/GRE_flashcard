@@ -1,6 +1,7 @@
 import sys
 sys.path.append("./Dictionary")
 sys.path.append("./Dictionary/Magoosh")
+sys.path.append("./Dictionary/BigBook")
 
 import day1
 import day2
@@ -12,7 +13,6 @@ import day7
 import day8
 import day9
 import day10
-
 import day11
 import day12
 import day13
@@ -35,73 +35,90 @@ import day28
 import day29
 import day30
 
+import chp1
+import chp2
+import chp3
+import chp4
+
+BigBook = False
 
 
-days = [
+if(BigBook):
+
+    days = [
+        chp1.items,
+        chp2.items,
+        chp3.items,
+        chp4.items
+    ]
+
+else:
+
+    days = [
+            
+
+        day1.items,
+
+        day2.items,
+
+        day3.items,
+        
+        day4.items,
+
+        day5.items,
+
+        day6.items,
+
+        day7.items,
+
+        day8.items,
+
+        day9.items,
+
+        day10.items,
+        
+        day11.items,
+
+        day12.items,
+        
+        day13.items,
+
+        day14.items,
+
+        day15.items,    
+        
+        day16.items,
+
+        day17.items,
+
+        day18.items,
+        
+        day19.items,
+
+        day20.items,
+
+        day21.items,
+
+        day22.items,
+
+        day23.items,
+
+        day24.items,    
+
+        day25.items,
+
+        day26.items,
+
+        day27.items,
+        
+        day28.items,
+
+        day29.items,
+
+        day30.items,    
         
 
-    day1.items,
-
-    day2.items,
-
-    day3.items,
-    
-    day4.items,
-
-    day5.items,
-
-    day6.items,
-
-    day7.items,
-
-    day8.items,
-
-    day9.items,    
-
-    day10.items,
-
-    day11.items,
-
-    day12.items,
-    
-    day13.items,
-
-    day14.items,
-
-    day15.items,    
-    
-    day16.items,
-
-    day17.items,
-
-    day18.items,
-    
-    day19.items,
-
-    day20.items,
-
-    day21.items,
-
-    day22.items,
-
-    day23.items,
-
-    day24.items,    
-
-    day25.items,
-
-    day26.items,
-
-    day27.items,
-    
-    day28.items,
-
-    day29.items,
-
-    day30.items,    
-    
-
-]
+    ]
 
 
 

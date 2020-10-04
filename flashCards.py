@@ -7,9 +7,9 @@ import numpy as np
 #constants
 numberOfTotalDays = 30
 clearThreshold = 4
-sessionWordThreshold = 100
+sessionWordThreshold = 1000
 
-days = [13, 14]
+days = [12  , 15]
 
 words = {}
 
@@ -28,7 +28,7 @@ for day in days:
     dayDict = dictionary.days[day-1]
     numberOfWords += len(dayDict.keys()) 
 
-    for item in dayDict.keys():
+    for item in dayDict.keys(): 
         words[item] = dayDict[item]
 
 
@@ -84,7 +84,10 @@ def doSession(indexes, words):
         if(i % clearThreshold == 0):
             os.system("clear")
             print("%.2f" % (i / numberOfWords * 100), "% of session is complete")
+            print("left : ", numberOfWords - i)
+            print("\n")
 
+        print(word + ": ")
         print(words[word])
         
         print("\n\n\n")

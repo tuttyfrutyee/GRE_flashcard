@@ -77,9 +77,23 @@ items = {
 
     "lachrymose" : "weepy",
 
-    
+    "feign" : "to pretend - [She feigned sleep to avoid having to answer]",
 
+    "pertinent" : "relevant",
 
+    "buttress" : "support",
+
+    "nettlesome" : "annoying",
+
+    "treacherous" : "deceitful",
+
+    "histrionic" : "overly theatrical",
+
+    "artifice" : "trickery",
+
+    "chagrin" : "dismay - [To her chagrin, neither of her sons became doctors]",
+
+    "timid" : "shy"
 }
 
 
